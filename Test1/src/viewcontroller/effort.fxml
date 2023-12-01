@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="438.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="viewcontroller.EffortViewController">
+   <children>
+      <fx:include layoutX="0" layoutY="0" source="button.fxml" />
+      <Label fx:id="title_lbl" layoutX="109.0" layoutY="7.0" prefHeight="36.0" prefWidth="491.0" text="                   Effort Logger [Effort]">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="effortInfo1_lbl" layoutX="109.0" layoutY="57.0" prefHeight="17.0" prefWidth="458.0" text="1. In starting a new activity click the 'Start Activity' button." />
+      <Button fx:id="startActivity_btn" layoutX="118.0" layoutY="74.0" mnemonicParsing="false" onAction="#startFunc" text="Start Activity" />
+      <Label fx:id="timeStart_lbl" layoutX="214.0" layoutY="78.0" text="Time started: 00:00:00" />
+      <Label fx:id="timeElapsed_lbl" layoutX="347.0" layoutY="78.0" text="Time elapsed: 00:00:00" />
+      <Label fx:id="effortInfo2_lbl" layoutX="112.0" layoutY="120.0" text="2. Select project, life cycle step, and deliverable" />
+      <ComboBox fx:id="project_cb" layoutX="118.0" layoutY="137.0" prefHeight="25.0" prefWidth="211.0" promptText="Business Project" />
+      <ComboBox fx:id="lifecycstep_cb" layoutX="360.0" layoutY="137.0" prefHeight="25.0" prefWidth="189.0" promptText="Planning" />
+      <ComboBox fx:id="effortcategory_cb" layoutX="118.0" layoutY="175.0" prefWidth="150.0" promptText="Defects" />
+      <ComboBox fx:id="defect_cb" layoutX="307.0" layoutY="175.0" prefHeight="25.0" prefWidth="242.0" promptText="1. testing" />
+      <Label fx:id="effortInfo3_lbl" layoutX="118.0" layoutY="215.0" text="3. In stopping an activity click the 'Stop Activity' button." />
+      <Button fx:id="stopActivity_btn" layoutX="118.0" layoutY="232.0" mnemonicParsing="false" onAction="#stopFunc" text="Stop Activity" />
+   </children>
+</AnchorPane>

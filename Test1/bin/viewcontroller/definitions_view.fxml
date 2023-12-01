@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="482.0" prefWidth="871.0" xmlns="http://javafx.com/javafx/20.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="viewcontroller.DefinitionsViewController">
+   <children>
+      <fx:include layoutX="0" layoutY="0" source="button.fxml" />
+      <Label fx:id="title_lbl" layoutX="109.0" layoutY="7.0" prefHeight="36.0" prefWidth="762.0" text="                                    Effort Logger [Definitions View]">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <TableView fx:id="projectName_tbl" layoutX="112.0" layoutY="59.0" prefHeight="379.0" prefWidth="88.0">
+        <columns>
+          <TableColumn fx:id="projectName_col" prefWidth="87.0" text="Project Names" />
+        </columns>
+      </TableView>
+      <TableView fx:id="lifeCycle_tbl" layoutX="219.0" layoutY="59.0" prefHeight="379.0" prefWidth="99.0">
+         <columns>
+            <TableColumn fx:id="lifeCycle_col" prefWidth="98.0" text="Life Cycle Steps" />
+         </columns>
+      </TableView>
+      <TableView fx:id="effortCategories_tbl" layoutX="335.0" layoutY="59.0" prefHeight="379.0" prefWidth="112.0">
+         <columns>
+            <TableColumn fx:id="effortCategories_Col" prefWidth="111.0" text="Effort Categories" />
+         </columns>
+      </TableView>
+      <TableView fx:id="plans_tbl" layoutX="467.0" layoutY="59.0" prefHeight="379.0" prefWidth="49.0">
+         <columns>
+            <TableColumn fx:id="plans_col" prefWidth="54.0" text="Plans" />
+         </columns>
+      </TableView>
+      <TableView fx:id="deliverables_tbl" layoutX="532.0" layoutY="59.0" prefHeight="379.0" prefWidth="88.0">
+         <columns>
+            <TableColumn fx:id="deliverables_col" prefWidth="87.0" text="Deliverables" />
+         </columns>
+      </TableView>
+      <TableView fx:id="interruptions_tbl" layoutX="639.0" layoutY="59.0" prefHeight="379.0" prefWidth="88.0">
+         <columns>
+            <TableColumn fx:id="interruptions_col" prefWidth="87.0" text="Interruptions" />
+         </columns>
+      </TableView>
+      <TableView fx:id="defectCategories_tbl" layoutX="748.0" layoutY="59.0" prefHeight="379.0" prefWidth="122.0">
+         <columns>
+            <TableColumn fx:id="defectCategories_col" prefWidth="118.0" text="Defect Categories" />
+         </columns>
+      </TableView>
+      <Button fx:id="selectFile_btn" layoutX="112.0" layoutY="443.0" mnemonicParsing="false" onAction="#selectFileFunc" text="Select File" /> <!-- test -->
+   </children>
+</AnchorPane>

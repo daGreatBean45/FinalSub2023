@@ -1,0 +1,7 @@
+ProjectNamesHeader,Business Project,Development Project,,,,,,,,,,,,,,,,,,,,,,,,
+LifeCycleStepsHeader,Problem Understanding,Conceptual Design Plan,Requirements,Conceptual Design,Conceptual Design Review,Detailed Design Plan,Detailed Design/Prototype,Detailed Design Review,Implementation Plan,Test Case Geeneration,Solution Specification,Solution Review,Solution Implementation,Unit/System Testing,Reflection,Repository Update,Planning,Information Gather,Information Understanding,Verifying,Outling,Drafting,Finalizing,Team Meeting,Coach Meeting,Stakeholder Meeting
+EffortCategoriesHeader,Plans,Deliverables,Interruptions,Defects,LeMores,,,,,,,,,,,,,,,,,,,,,
+PlansHeader,Project Plan,Risk Management Plan,Conceptual Design Plan,Detailed Design Plan,Implementation Plan,,,,,,,,,,,,,,,,,,,,,
+DeliverablesHeader,Conceputal Design,Detailed Design,Test Cases,Solution,Reflection,Outline,Draft,Report,User Defined,Other,,,,,,,,,,,,,,,,
+InterruptionsHeader,Break,Phone,Teammate,Visitor,Other,,,,,,,,,,,,,,,,,,,,,
+DefectsHeader,Not Specified,10 Documentation,20 Syntax,30 Build Package,40 Assignment,50 Interface,60 Checking,70 Data,80 Function,90 System,100 Enviornment,,,,,,,,,,,,,,,

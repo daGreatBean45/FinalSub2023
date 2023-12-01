@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.VBox?>
+
+<!-- I really hope these images work now -->
+
+<VBox fx:id="toolbar_vbox" spacing="20.0" xmlns="http://javafx.com/javafx/20.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="viewcontroller.ButtonViewController">
+   <children>
+      <Button fx:id="effort_btn" mnemonicParsing="false" onAction="#displayEffort" prefHeight="26.0" prefWidth="88.0" text="Effort" />
+      <Button fx:id="defect_btn" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#displayDefect" prefHeight="26.0" prefWidth="88.0" text="Defect" />
+      <Button fx:id="fileSelect_btn" layoutX="10.0" layoutY="36.0" mnemonicParsing="false" onAction="#displayHome" prefHeight="26.0" prefWidth="88.0" text="Select File" />
+      <Button fx:id="dataView_btn" layoutX="10.0" layoutY="63.0" mnemonicParsing="false" onAction="#displayDefinitions" prefHeight="26.0" prefWidth="88.0" text="Definitions" />
+      <Button fx:id="log_btn" layoutX="10.0" layoutY="89.0" mnemonicParsing="false" onAction="#displayLogs" prefHeight="26.0" prefWidth="88.0" text="Logs" />
+   </children>
+</VBox>
